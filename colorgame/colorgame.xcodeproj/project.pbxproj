@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24AB8FC728759D9700A5E5EE /* colorgameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB8FC628759D9700A5E5EE /* colorgameApp.swift */; };
+		24AB8FC928759D9700A5E5EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB8FC828759D9700A5E5EE /* ContentView.swift */; };
+		24AB8FCB28759DA300A5E5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AB8FCA28759DA300A5E5EE /* Assets.xcassets */; };
+		24AB8FCE28759DA300A5E5EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AB8FCD28759DA300A5E5EE /* Preview Assets.xcassets */; };
+		24AB8FD828759DA300A5E5EE /* colorgameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB8FD728759DA300A5E5EE /* colorgameTests.swift */; };
+		24AB8FE228759DA400A5E5EE /* colorgameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB8FE128759DA400A5E5EE /* colorgameUITests.swift */; };
+		24AB8FE428759DA400A5E5EE /* colorgameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB8FE328759DA400A5E5EE /* colorgameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24AB8FD428759DA300A5E5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24AB8FBB28759D9600A5E5EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24AB8FC228759D9700A5E5EE;
+			remoteInfo = colorgame;
+		};
+		24AB8FDE28759DA400A5E5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24AB8FBB28759D9600A5E5EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24AB8FC228759D9700A5E5EE;
+			remoteInfo = colorgame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24AB8FC328759D9700A5E5EE /* colorgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AB8FC628759D9700A5E5EE /* colorgameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorgameApp.swift; sourceTree = "<group>"; };
+		24AB8FC828759D9700A5E5EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24AB8FCA28759DA300A5E5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24AB8FCD28759DA300A5E5EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24AB8FD328759DA300A5E5EE /* colorgameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colorgameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AB8FD728759DA300A5E5EE /* colorgameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorgameTests.swift; sourceTree = "<group>"; };
+		24AB8FDD28759DA400A5E5EE /* colorgameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colorgameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AB8FE128759DA400A5E5EE /* colorgameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorgameUITests.swift; sourceTree = "<group>"; };
+		24AB8FE328759DA400A5E5EE /* colorgameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorgameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24AB8FC028759D9700A5E5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AB8FD028759DA300A5E5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AB8FDA28759DA400A5E5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24AB8FBA28759D9600A5E5EE = {
+			isa = PBXGroup;
+			children = (
+				24AB8FC528759D9700A5E5EE /* colorgame */,
+				24AB8FD628759DA300A5E5EE /* colorgameTests */,
+				24AB8FE028759DA400A5E5EE /* colorgameUITests */,
+				24AB8FC428759D9700A5E5EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24AB8FC428759D9700A5E5EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24AB8FC328759D9700A5E5EE /* colorgame.app */,
+				24AB8FD328759DA300A5E5EE /* colorgameTests.xctest */,
+				24AB8FDD28759DA400A5E5EE /* colorgameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24AB8FC528759D9700A5E5EE /* colorgame */ = {
+			isa = PBXGroup;
+			children = (
+				24AB8FC628759D9700A5E5EE /* colorgameApp.swift */,
+				24AB8FC828759D9700A5E5EE /* ContentView.swift */,
+				24AB8FCA28759DA300A5E5EE /* Assets.xcassets */,
+				24AB8FCC28759DA300A5E5EE /* Preview Content */,
+			);
+			path = colorgame;
+			sourceTree = "<group>";
+		};
+		24AB8FCC28759DA300A5E5EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24AB8FCD28759DA300A5E5EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24AB8FD628759DA300A5E5EE /* colorgameTests */ = {
+			isa = PBXGroup;
+			children = (
+				24AB8FD728759DA300A5E5EE /* colorgameTests.swift */,
+			);
+			path = colorgameTests;
+			sourceTree = "<group>";
+		};
+		24AB8FE028759DA400A5E5EE /* colorgameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24AB8FE128759DA400A5E5EE /* colorgameUITests.swift */,
+				24AB8FE328759DA400A5E5EE /* colorgameUITestsLaunchTests.swift */,
+			);
+			path = colorgameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24AB8FC228759D9700A5E5EE /* colorgame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AB8FE728759DA400A5E5EE /* Build configuration list for PBXNativeTarget "colorgame" */;
+			buildPhases = (
+				24AB8FBF28759D9700A5E5EE /* Sources */,
+				24AB8FC028759D9700A5E5EE /* Frameworks */,
+				24AB8FC128759D9700A5E5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = colorgame;
+			productName = colorgame;
+			productReference = 24AB8FC328759D9700A5E5EE /* colorgame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24AB8FD228759DA300A5E5EE /* colorgameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AB8FEA28759DA400A5E5EE /* Build configuration list for PBXNativeTarget "colorgameTests" */;
+			buildPhases = (
+				24AB8FCF28759DA300A5E5EE /* Sources */,
+				24AB8FD028759DA300A5E5EE /* Frameworks */,
+				24AB8FD128759DA300A5E5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24AB8FD528759DA300A5E5EE /* PBXTargetDependency */,
+			);
+			name = colorgameTests;
+			productName = colorgameTests;
+			productReference = 24AB8FD328759DA300A5E5EE /* colorgameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24AB8FDC28759DA400A5E5EE /* colorgameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AB8FED28759DA400A5E5EE /* Build configuration list for PBXNativeTarget "colorgameUITests" */;
+			buildPhases = (
+				24AB8FD928759DA400A5E5EE /* Sources */,
+				24AB8FDA28759DA400A5E5EE /* Frameworks */,
+				24AB8FDB28759DA400A5E5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24AB8FDF28759DA400A5E5EE /* PBXTargetDependency */,
+			);
+			name = colorgameUITests;
+			productName = colorgameUITests;
+			productReference = 24AB8FDD28759DA400A5E5EE /* colorgameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24AB8FBB28759D9600A5E5EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					24AB8FC228759D9700A5E5EE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					24AB8FD228759DA300A5E5EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 24AB8FC228759D9700A5E5EE;
+					};
+					24AB8FDC28759DA400A5E5EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 24AB8FC228759D9700A5E5EE;
+					};
+				};
+			};
+			buildConfigurationList = 24AB8FBE28759D9600A5E5EE /* Build configuration list for PBXProject "colorgame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24AB8FBA28759D9600A5E5EE;
+			productRefGroup = 24AB8FC428759D9700A5E5EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24AB8FC228759D9700A5E5EE /* colorgame */,
+				24AB8FD228759DA300A5E5EE /* colorgameTests */,
+				24AB8FDC28759DA400A5E5EE /* colorgameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24AB8FC128759D9700A5E5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AB8FCE28759DA300A5E5EE /* Preview Assets.xcassets in Resources */,
+				24AB8FCB28759DA300A5E5EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AB8FD128759DA300A5E5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AB8FDB28759DA400A5E5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24AB8FBF28759D9700A5E5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AB8FC928759D9700A5E5EE /* ContentView.swift in Sources */,
+				24AB8FC728759D9700A5E5EE /* colorgameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AB8FCF28759DA300A5E5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AB8FD828759DA300A5E5EE /* colorgameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AB8FD928759DA400A5E5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AB8FE428759DA400A5E5EE /* colorgameUITestsLaunchTests.swift in Sources */,
+				24AB8FE228759DA400A5E5EE /* colorgameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24AB8FD528759DA300A5E5EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24AB8FC228759D9700A5E5EE /* colorgame */;
+			targetProxy = 24AB8FD428759DA300A5E5EE /* PBXContainerItemProxy */;
+		};
+		24AB8FDF28759DA400A5E5EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24AB8FC228759D9700A5E5EE /* colorgame */;
+			targetProxy = 24AB8FDE28759DA400A5E5EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24AB8FE528759DA400A5E5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24AB8FE628759DA400A5E5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24AB8FE828759DA400A5E5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"colorgame/Preview Content\"";
+				DEVELOPMENT_TEAM = Z337ZL4C32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazukinakari.colorgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24AB8FE928759DA400A5E5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"colorgame/Preview Content\"";
+				DEVELOPMENT_TEAM = Z337ZL4C32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazukinakari.colorgame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24AB8FEB28759DA400A5E5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z337ZL4C32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazukinakari.colorgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/colorgame.app/colorgame";
+			};
+			name = Debug;
+		};
+		24AB8FEC28759DA400A5E5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z337ZL4C32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazukinakari.colorgameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/colorgame.app/colorgame";
+			};
+			name = Release;
+		};
+		24AB8FEE28759DA400A5E5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z337ZL4C32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazukinakari.colorgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = colorgame;
+			};
+			name = Debug;
+		};
+		24AB8FEF28759DA400A5E5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z337ZL4C32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazukinakari.colorgameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = colorgame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24AB8FBE28759D9600A5E5EE /* Build configuration list for PBXProject "colorgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AB8FE528759DA400A5E5EE /* Debug */,
+				24AB8FE628759DA400A5E5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AB8FE728759DA400A5E5EE /* Build configuration list for PBXNativeTarget "colorgame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AB8FE828759DA400A5E5EE /* Debug */,
+				24AB8FE928759DA400A5E5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AB8FEA28759DA400A5E5EE /* Build configuration list for PBXNativeTarget "colorgameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AB8FEB28759DA400A5E5EE /* Debug */,
+				24AB8FEC28759DA400A5E5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AB8FED28759DA400A5E5EE /* Build configuration list for PBXNativeTarget "colorgameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AB8FEE28759DA400A5E5EE /* Debug */,
+				24AB8FEF28759DA400A5E5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24AB8FBB28759D9600A5E5EE /* Project object */;
+}
